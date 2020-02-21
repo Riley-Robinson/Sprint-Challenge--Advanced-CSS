@@ -1,6 +1,6 @@
 
     
-        .button(@btbc:@btn-bg-color,@btm: 0 10% 0 0,@bth:40px,@btfz: 2rem,@btbr: 8px,@btw:28%,@btc:@sea-shell){
+        .button(@btbc:@btn-bg-color,@btm: 0 10% 0 0,@bth:20%,@btfz: 2rem,@btbr: 8px,@btw:28%,@btc:@sea-shell){
             background-color: @btbc;
             margin: @btm;
             height: @bth;
@@ -9,6 +9,11 @@
             width:@btw;
             color: @btc;
         
+
+            @media @phone{
+                width: 100%;
+                height: 80px;
+              }
 
         &:hover{
          background-color: @waterloo;
