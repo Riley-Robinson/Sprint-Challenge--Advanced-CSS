@@ -173,7 +173,12 @@ p {
   align-content: center;
   align-items: center;
   height: 12vh;
-  border: 1px solid #F1F1F1;
+  border: [object Object];
+}
+@media (max-width: 500px) {
+  .nav1 {
+    width: 100%;
+  }
 }
 .nav1 h1 {
   color: #454A59;
@@ -187,6 +192,11 @@ p {
   align-content: center;
   align-items: center;
   font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .nav1 nav {
+    width: 100%;
+  }
 }
 .nav1 nav a {
   color: #454A59;
@@ -203,6 +213,16 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.home .intro .herderimg1 {
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .home .intro .herderimg1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -214,11 +234,26 @@ footer {
   flex-wrap: wrap;
   width: 100%;
 }
+@media (max-width: 500px) {
+  .home .space-images {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .home .space-images #poof {
+    display: none;
+  }
+}
 .home .space-images img {
   width: 28%;
   margin: 20px 2.5%;
   border-radius: 20px;
   height: 100%;
+}
+@media (max-width: 500px) {
+  .home .space-images img {
+    width: 95%;
+  }
 }
 .home .visit-planets {
   padding: 15px;
@@ -236,8 +271,21 @@ footer {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .home .walk {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+  }
+}
 .home .walk .walk-text {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text {
+    width: 100%;
+  }
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
@@ -254,12 +302,23 @@ footer {
   width: 28%;
   color: #F1F1F1;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #81848E;
+  color: #22283A;
+}
 .home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .walk-img {
+    display: flex;
+    width: 100%;
+    margin: 0;
+  }
+}
 .home .walk .walk-text .walk-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
   border-radius: 10px;
 }

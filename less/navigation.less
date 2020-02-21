@@ -7,12 +7,15 @@
     align-content: center;
     align-items: center;
     height: 12vh;
-    border: 1px solid @sea-shell;
-    
+    border: .border1();
+   
+    @media @phone{
+        width: 100%;
+    }
 
     h1{
         .h1style;
-
+        
     }
 
     nav{
@@ -22,12 +25,17 @@
         align-content: center;
         align-items: center;
        font-size: 2rem;
-        
-        
+
+       @media @phone{
+           width: 100%;
+           
+            
+       }
 
         a{  color: @river-bend;
             text-decoration: none;
             margin: 0 0 3% 0;
+
         }
     }
 
