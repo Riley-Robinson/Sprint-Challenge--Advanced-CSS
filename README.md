@@ -32,15 +32,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website?
+1.	What is the difference between an adaptive website and a fully responsive website?
+Put simply, responsive is fluid and adapts to the size of the screen no matter what the target device. Responsive uses CSS media queries to change styles based on the target device such as display type, width, height, etc., and only one of these is necessary for the site to adapt to different screens.
 
-2. Describe what it means to be mobile first vs desktop first.
+Adaptive design, on the other hand, uses static layouts based on breakpoints which don’t respond once they’re initially loaded. Adaptive works to detect the screen size and load the appropriate layout for it – generally you would design an adaptive site for six common screen widths:
 
-3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+2.	Describe what it means to be mobile first vs desktop first
+Mobile first you scale up with @media tag min width = 500 px and scale up 
+desktop you scale down max width =800 px and you scale down
+3.	What does font-size: 62.5% in the html tag do for us when using rem units?
 
-4. How would you describe preprocessing to someone new to CSS?
+1rem =10px
+4.	How would you describe preprocessing to someone new to CSS?
+It’s the idea of nesting you css for it to be consumed by the compiler, as well as allowing you to add in mixins that save 40 lines of code with 4
+5.	What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+Mixins are by far the most fun as it allows for some good even flow of freedom and concepts. The biggest concept I have the most trobble with is the @meda tag because I keep forgetting the meta tag
 
-5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

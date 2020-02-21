@@ -1,1 +1,34 @@
-// Mixins Here
+
+    
+        .button(@btbc:@btn-bg-color,@btm: 0 10% 0 0,@bth:20%,@btfz: 2rem,@btbr: 8px,@btw:28%,@btc:@sea-shell){
+            background-color: @btbc;
+            margin: @btm;
+            height: @bth;
+            font-size:@btfz;
+            border-radius:@btbr;
+            width:@btw;
+            color: @btc;
+        
+
+            @media @phone{
+                width: 100%;
+                height: 80px;
+              }
+
+        &:hover{
+         background-color: @waterloo;
+         color: @btn-bg-color;
+        }
+    }
+
+
+        .h1style(){
+            color: @river-bend;
+            font-size: 4rem;
+            margin: 2% 0;
+        }
+
+        .border1() {
+            border-bottom: 1px solid @sea-shell;
+        }
+        
