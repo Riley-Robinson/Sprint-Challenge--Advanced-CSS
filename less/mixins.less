@@ -1,19 +1,19 @@
 
-    .custom-btn(){
-        background-color: @btn-bg-color;
-        margin: 0 10% 0 0;
-        height: 40px;
-        font-size: 2rem;
-        border-radius: 8px;
-        width:28%;
-        color: @sea-shell;
-    }
-
+    
+        .button(@btbc:@btn-bg-color,@btm: 0 10% 0 0,@bth:40px,@btfz: 2rem,@btbr: 8px,@btw:28%,@btc:@sea-shell){
+            background-color: @btbc;
+            margin: @btm;
+            height: @bth;
+            font-size:@btfz;
+            border-radius:@btbr;
+            width:@btw;
+            color: @btc;
+        }
 
 
 
         .h1style(){
-            color: @btn-bg-color;
+            color: @river-bend;
             font-size: 4rem;
             margin: 2% 0;
         }

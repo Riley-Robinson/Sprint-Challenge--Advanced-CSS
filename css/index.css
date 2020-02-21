@@ -173,9 +173,10 @@ p {
   align-content: center;
   align-items: center;
   height: 12vh;
+  border: 1px solid #F1F1F1;
 }
 .nav1 h1 {
-  color: #22283A;
+  color: #454A59;
   font-size: 4rem;
   margin: 2% 0;
 }
@@ -188,6 +189,7 @@ p {
   font-size: 2rem;
 }
 .nav1 nav a {
+  color: #454A59;
   text-decoration: none;
   margin: 0 0 3% 0;
 }
