@@ -172,7 +172,7 @@ p {
   justify-content: space-around;
   align-content: center;
   align-items: center;
-  height: 10vh;
+  height: 12vh;
 }
 .nav1 h1 {
   color: #22283A;
@@ -189,7 +189,7 @@ p {
 }
 .nav1 nav a {
   text-decoration: none;
-  margin: 0 0 0 4%;
+  margin: 0 0 3% 0;
 }
 footer {
   color: #22283B;
@@ -243,11 +243,20 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
-.home .walk .walk-img {
+.home .walk .walk-text .btn {
+  background-color: #22283A;
+  margin: 0 10% 0 0;
+  height: 40px;
+  font-size: 2rem;
+  border-radius: 8px;
+  width: 28%;
+  color: #F1F1F1;
+}
+.home .walk .walk-text .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-img img {
+.home .walk .walk-text .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
